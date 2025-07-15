@@ -39,6 +39,51 @@ mern-testing/
 
 ## Getting Started
 
+---
+
+## Testing Strategy
+
+This MERN stack application uses:
+- **Jest** for unit and integration tests (client/server)
+- **React Testing Library** for React component tests
+- **Supertest** for API endpoint integration tests
+- **Cypress** for end-to-end (E2E) tests
+- **mongodb-memory-server** for isolated test DB
+
+### Running Tests
+
+#### Client
+- `npm test` (unit/integration)
+- `npx cypress open` (E2E)
+
+#### Server
+- `npm test` (unit/integration)
+
+#### Coverage
+- Coverage reports are generated after running tests. See `/coverage` folders.
+
+---
+
+## Debugging Techniques
+
+- **Server Logging:** Uses `morgan` for HTTP logs and `console.error` in the global error handler.
+- **Global Error Handler:** All Express errors are caught and logged.
+- **React Error Boundaries:** The app is wrapped in an error boundary to catch UI errors.
+- **Code Comments:** See `ErrorBoundary.jsx` and `errorHandler.js` for debugging examples.
+
+---
+
+## End-to-End (E2E) Testing
+
+1. Start the client app (`npm start` or your preferred method).
+2. Run Cypress:
+   ```
+   npx cypress open
+   ```
+3. Run the sample E2E test in `cypress/e2e/smoke.cy.js`.
+
+---
+
 1. Accept the GitHub Classroom assignment invitation
 2. Clone your personal repository that was created by GitHub Classroom
 3. Follow the setup instructions in the `Week6-Assignment.md` file

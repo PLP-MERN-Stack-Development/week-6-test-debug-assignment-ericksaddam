@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1752570221574" clover="3.2.0">
+  <project timestamp="1752570221574" name="All files">
+    <metrics statements="20" coveredstatements="19" conditionals="13" coveredconditionals="12" methods="1" coveredmethods="1" elements="34" coveredelements="32" complexity="0" loc="20" ncloc="20" packages="1" files="1" classes="1"/>
+    <file name="Button.jsx" path="/home/erick/Videos/programming/plp/mearn/week-6-test-debug-assignment-ericksaddam/client/src/components/Button.jsx">
+      <metrics statements="20" coveredstatements="19" conditionals="13" coveredconditionals="12" methods="1" coveredmethods="1"/>
+      <line num="4" count="1" type="cond" truecount="4" falsecount="0"/>
+      <line num="5" count="12" type="stmt"/>
+      <line num="6" count="12" type="cond" truecount="3" falsecount="0"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="14" count="10" type="stmt"/>
+      <line num="17" count="12" type="stmt"/>
+      <line num="18" count="12" type="cond" truecount="3" falsecount="1"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="23" count="10" type="stmt"/>
+      <line num="24" count="10" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="32" count="12" type="stmt"/>
+      <line num="40" count="12" type="stmt"/>
+      <line num="52" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
